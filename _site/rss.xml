@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+        <title></title>
+        <description> - </description>
+        <link>http://dicook.github.io</link>
+        <link>http://dicook.github.io</link>
+        <lastBuildDate>2015-05-17T12:48:10-05:00</lastBuildDate>
+        <pubDate>2015-05-17T12:48:10-05:00</pubDate>
+        <ttl>1800</ttl>
+
+
+        <item>
+                <title>Graduates in Statistical Graphics Research at ISU 2015</title>
+                <description>&lt;p&gt;Its exciting to report on the graduations from the working group this year.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Niladri Roy Chowdhury defended his PhD thesis in Aug 2014, titled &quot;Explorations of the lineup protocol for visual inference: application to high dimension, low sample size problems and metrics to assess the quality&quot;. He is a scientist at Novartis, Boston, MA.&lt;/li&gt;
+&lt;li&gt;Susan Vanderplas defended her PhD in May, titled &quot;Perception in Statistical Graphics&quot;, under the direction of Professor Heike Hofmann. Susan will be working for Nebraska power in the next couple of years, while continuing statistical research with colleagues at ISU. Personal logistics meant she had to turn down an assistant professor position at University of Iowa this year, but she hopes to move in to academia in several years, if their dual careers allow.&lt;/li&gt;
+&lt;li&gt;Xiaoyue (Zoe) Cheng defended her thesis titled &quot;Interactive Visualization for Missing Values, Time Series, and Areal Data&quot; under the direction of myself, and Heike. She will be an assistant professor at University of Nebraska-Omaha from August, and is welcoming a new member into the family in just a couple of weeks.&lt;/li&gt;
+&lt;li&gt;Karsten Maurer will defend his PhD late this summer, and will start as an assistant professor at Miami University, Ohio in August.&lt;/li&gt;
+&lt;li&gt;Sam Helmich defended his MS in March, titled &quot;Board Game Recommendation&quot; under the direction of Professor Heike Hofmann. He works for John Deer, Iowa.&lt;/li&gt;
+&lt;li&gt;Sam Tyner defended her MS in April, titled &quot;A Geometry for Network Visualization in ggplot2&quot; under the direction of Professor Heike Hofmann. She will continue on to a PhD at ISU.&lt;/li&gt;
+&lt;li&gt;Danny Bero defended his MS, titled &quot;Ranking Iowa High School Soccer Teams&quot;, in April, under my direction. You check out the &lt;a href=&quot;https://berodaniel.shinyapps.io/rankings_app&quot;&gt;web app&lt;/a&gt; to explore rankings of high school teams, and predict match outcomes. He will take a position at an internet sales company in Monroe, WI, in June.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;Below are some photos from the spring barbecue celebrating the graduation, and the graduation photos. (Some of the people at the bbq: Ian, Lari, Alex, Andee, Cari, Vianey, Natalia, Ignacio, Eric,Raine, Heike, Mattias, Grace.)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://dicook.github.io/assets/wg-bbq-2015.jpg&quot; alt=&quot;spring bbq celebrating graduations&quot; /&gt;
+&lt;img src=&quot;http://dicook.github.io/assets/wg-bbq-2015-2.jpg&quot; alt=&quot;spring bbq celebrating graduations&quot; /&gt;
+&lt;img src=&quot;http://dicook.github.io/assets/wg-grads-2015.jpg&quot; alt=&quot;spring bbq celebrating graduations&quot; /&gt;
+&lt;img src=&quot;http://dicook.github.io/assets/xiaoyue-yihui.jpg&quot; alt=&quot;spring bbq celebrating graduations&quot; /&gt;&lt;/p&gt;
+</description>
+                <link>http://dicook.github.io/2015/05/17/graduations</link>
+                <guid>http://dicook.github.io/2015/05/17/graduations</guid>
+                <pubDate>2015-05-17T00:00:00-05:00</pubDate>
+        </item>
+
+        <item>
+                <title>EDA at the UN</title>
+                <description>&lt;p&gt;On Nov 10 I was part of a celebration of John W. Tukey at the United Nations. This event kicked off a new UN initiative called Unite Ideas. Details of the event, and the initiative can be found &lt;a href=&quot;https://unite.un.org/techevents/eda&quot;&gt;here&lt;/a&gt;. There were five talks relayed live to an audience of several thousand, using google hangouts and a youtube channel, and listeners could post questions using the Q/A tool.&lt;/p&gt;
+
+&lt;p&gt;My talk was titled &lt;a href=&quot;http://dicook.github.io/assets/UN-slides.pdf&quot;&gt;&quot;An Exploratory Data Analysis of OECD&#39;s 2012 PISA Survey&quot;s&lt;/a&gt; and I delivered it by computer from my office in Iowa. The experience of talking to the computer without visual feedback of the audience felt awkward. My parents in Australia got up at 1am their time to tune in, and they reported &quot;went ok&quot;, and &quot;we liked how you answered the questions&quot;. I decided to talk on this topic because it showcased EDA tools for exploring data rather than talking about tools. I worked with Ian Lyttle, Alex Shum and Luke Fostveldt exploring the data over the summer as part of a competition for useR! 2014, and have previously talked about it on this &lt;a href=&quot;http://dicook.github.io/wg/Cook-slides.html&quot;&gt;in our working group&lt;/a&gt;. The education data is huge, and I was very surprised by what we found, and that is what EDA can do &quot;the greatest value of a picture is when it forces us to notice what we never expected to see&quot; (quote by Tukey). Often what I find in data are just problems, good to know about, but a little embarrassing to the data owner. Plots of this data blew up one of the myths that I was living with.&lt;/p&gt;
+
+&lt;p&gt;There were a few questions posted, and this is the main reason for this blog. It is to address this question:&lt;/p&gt;
+
+&lt;p&gt;&quot;When you draw conclusions about response variables based on one-predictor-at-at-time analyses, you are of course quite likely to be a victim of confounding.&quot;&lt;/p&gt;
+
+&lt;p&gt;I answered this live, perhaps not very well, but I have also been asked similar questions at various times over the years, and it is a good question, worth further attention. The question arises because I looked just at differences in math scores just for one covariate, separately by country - this is what the &quot;one predictor at a time&quot; means. By only looking at gender, and not at school, age, hours spent studying, parents&#39; socioeconomic status, truancy, number of possessions, number of math teachers, attitude to math, ... there is a danger that the results change at a finer resolution. Yes, this is something that you should always be cautious about.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://dicook.github.io/assets/gendermath.png&quot; alt=&quot;gender bias in math by country&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;To counter this, a modeler would fit many, many variables and the interactions simultaneously and look at the coefficients for the predictors in the model, in order to make a statement about gender and math scores. However, this is at odds, to a large extent with EDA, where the fundamentals dictate light processing of the data. If you overly process the data you might miss key features like outliers, clusters, small pockets of heterogeneity. My first instincts with the gender bias is not universal observation was to be skeptical: could it really be that in Qatar girls score 15 points better than boys on average? This could be an artifact induced by small sample size, or unequal proportions of gender in the sample. Simpson&#39;s paradox can occur when proportions and counts are different between categories that are aggregated - look up the famous Berkeley admissions data.&lt;/p&gt;
+
+&lt;p&gt;Neither of these are culprits for these five countries with the reverse gender gap. There were 7000 students, with 51% girls and 49% boys being measured in Jordan. In addition, students were drawn from about 250 different schools. These are quick and easy checks that can be done for data like this. Actually for many of the plots that we made of the data we also made bar charts of the category counts to guard against reading too much into the patterns of the math scores. You should be suspicious of results reported without these numbers.&lt;/p&gt;
+
+&lt;p&gt;Another check can be done, which is the lineup protocol discussed in an &lt;a href=&quot;http://dicook.github.io/2014/11/03/nullabor/&quot;&gt;earlier blog&lt;/a&gt;. Put the plot of the data in amongst a field of plots of null data. We can create the null data sets for this data by permuting the gender labels of students, within each country, recalculate the difference in average math scores, and remake the dotplot. This is done below.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://dicook.github.io/assets/gendermath-lineup.png&quot; alt=&quot;gender bias lineup&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The plot of the data (f) stands out amongst the rest of the plots. The largest gap that is produced by random labels is on the order of 5 points, and we see a pretty even spread between boys and girls. The data stands out in this bunch because there are more countries that have a higher boys average score and because some countries have much bigger average differences than 5 points. The nearest that we get to something odd is on plot (e) where there is one country where there is a gender gap in favor of girls of about 18 points. However, this is due to the one country with small numbers, Lichtenstein, which only measured 300 students. It should have been removed from the analysis ahead of time.&lt;/p&gt;
+
+&lt;p&gt;Aside: there was another question/comment, &quot;When you see it... of course it is there!&quot;, that appeared when I showed this lineup. I didn&#39;t have a chance to answer it. What you see in a plot is typically a sample, and so you need to gauge whether the pattern observed is going to occur if you take another sample, or disappear. This is what &quot;really there&quot; means, that the pattern is present in the population. Deviations will occur from sample to sample, and it is important to ignore these for the most part.&lt;/p&gt;
+
+&lt;p&gt;One last comment about using single predictors. We cannot say definitively that there is not a universal gender gap in math. This would require a designed experiment, a huge one. The PISA data is observational data. It suggests that there isn&#39;t a universal gender gap, and this stands up to a couple of quick checks. If this pattern repeated itself in other testing years then this would be further evidence, but not proof. You can&#39;t always prove things with observational data but with enough different elements the evidence builds up. The other piece of information that I have in favor of the reverse gender gap in the middle eastern countries is that my female colleagues in statistics education at Duke University were not at all surprised.  They knew about this pattern. But for me, and most of my colleagues, making a few pictures of the data shattered a myth.&lt;/p&gt;
+
+&lt;p&gt;Video footage of the event is available &lt;a href=&quot;https://plus.google.com/events/cj68mces4jggki4c7b4clvj7tak&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+                <link>http://dicook.github.io/2014/11/16/eda-at-the-un</link>
+                <guid>http://dicook.github.io/2014/11/16/eda-at-the-un</guid>
+                <pubDate>2014-11-16T00:00:00-06:00</pubDate>
+        </item>
+
+        <item>
+                <title>New version of nullabor package released</title>
+                <description>&lt;p&gt;The new version of nullabor contains numerical measures that quantify how close the plot of the data is to the null plots in a lineup. It is very difficult to quantify all patterns that might be read from plots, so these should be taken in a spirit ofa Herculean task.   The goal is to get some sense of what people are reacting to in a plot, which could be then associated with the text descriptions from people, or with data from an eyetracker.&lt;/p&gt;
+
+&lt;p&gt;To illustrate the use of the package, for doing inference using graphics, we adapt an example fro elementary statistics on the color distribution in packs of skittles&lt;sup&gt;TM&lt;/sup&gt;. Skittles come in different flavored bags - we will use the Wildberry packs, which have purple, red, blue, pink, and green. According to  &lt;a href=&quot;http://www.ask.com/food/percentages-colors-skittles-bag-4ba965c64554571f?qo=questionPageSimilarContent&quot;&gt;http://www.ask.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&quot;In a batch of candies produced in the Skittles factory, there are equal amounts of the five colors all mixed together before being packaged into separate bags. Consequently, each color should represent approximately 20 percent of any one skittles bag.&quot;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;In 2.17oz bags there are supposed to be 56 skittles on average, give or take some deformities. We can use R to simulate the distribution of colors in a bag of skittles, assuming each color is packed with equal proportion, 20%, and use Alyssa Frazee&#39;s RSkittleBrewer package to color the plot of the data to match the candy colors.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://dicook.github.io/assets/skittles-one-pack.png&quot; alt=&quot;&amp;quot;skittles bag&amp;quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;There were 15, 9, 10, 9, 13 purple, red, blue, pink, green skittles, with proportions 0.27, 0.16, 0.18, 0.16, 0.23 respectively. If you were to just look at this distribution, particularly if you don&#39;t like the purple color, you might be tempted to think the Mars company is conspiring against you to put more purple skittles  into the packs.&lt;/p&gt;
+
+&lt;p&gt;In an early statistics class, this might be tested using a hypothesis test:&lt;/p&gt;
+
+&lt;p&gt;Ho: p1=p2=p3=p4=p5 vs Ha: Not all equal&lt;/p&gt;
+
+&lt;p&gt;by calculating a X&lt;sup&gt;2&lt;/sup&gt; test statistic with expected counts for each color equal to 11.2:&lt;/p&gt;
+
+&lt;p&gt;X&lt;sup&gt;2&lt;/sup&gt;=2.571, df=4, p-value=0.63. This is a large p-value, so you would conclude that there is no evidence to reject Ho, and you would conclude that the packs are actually produced using an equal proportion of all colors.&lt;/p&gt;
+
+&lt;p&gt;This requires that the audience knows a little statistics, and understands the logic behind hypothesis testing. If we were to examine the problem using the lineup protocol from visual inference, we would generate another 19 data sets from the null distribution and plot these along with the plot of the data. You would ask &lt;strong&gt;which of the 20 plots is the most different from the others&lt;/strong&gt; (a little more general than asking specifically about the purple count, which enables more general discoveries of unexpected patterns).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://dicook.github.io/assets/skittles-lineup1.png&quot; alt=&quot;&amp;quot;skittles lineup 1&amp;quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Your bag is in position 19. There is a lot of variation from one plot to another, which happens when sampling from a uniform distribution. It is not unusual to obtain 15 of one color in a pack. Sampling does not yield a flat distribution each time, numbers of each category can vary wildly in packs of size 56.&lt;/p&gt;
+
+&lt;p&gt;If you are not convinced, here is a new example. Technically, you should not view a lineup of your plotted data, after you have already seen your data. It will always stand out because you recognize it. This time, you have not been told which bag was yours, so you are asked to find the plot among the 20 which has the strangest distribution, as a way to find your bag. We&#39;ll tell you which is yours after you pick, but the answer is at the bottom of this page.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://dicook.github.io/assets/skittles-lineup2.png&quot; alt=&quot;&amp;quot;skittles lineup 2&amp;quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Among the bag counts, there are bags with as few as 1 purple skittle, and as many as 19. There is a bag with 19 red skittles, and yet another with 19 pink skittles, and oh, there is a bag with 20 blue skittles. The numbers of each color vary wildly from bag to bag.&lt;/p&gt;
+
+&lt;p&gt;Let&#39;s switch up the scenario. Suppose you really are right, that the Mars company is filling bags with twice as many purple skittles as any other color. What would this look like? Here&#39;s a lineup of your bag of skittles, where the company has filled it with a higher proportion of purple, compared with counts for bags filled using equal numbers. &lt;strong&gt;Pick the plot that is the most different.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://dicook.github.io/assets/skittles-lineup3.png&quot; alt=&quot;&amp;quot;skittles lineup 3&amp;quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If we were to conduct the hypothesis test for this data, the details would be:&lt;/p&gt;
+
+&lt;p&gt; X&lt;sup&gt;2&lt;/sup&gt;=19, df=4, p-value=0.0008&lt;/p&gt;
+
+&lt;p&gt;which would result in rejecting the null hypothesis and concluding that Mars was filling bags with too many purples. The actual proportions used to generate the data were 50% purple, and 12.5% for the other colors. The resulting samples look quite different in the plots, from those that were generated under the assumption that all colors are packed equally.&lt;/p&gt;
+
+&lt;p&gt;Using the lineup protocol is similar to the Sesame Street task, &quot;one of these things is not like the other&quot;. It enables illustrating statistical significance or lack of it, with less technical detail than the traditional hypothesis testing requires, and opens the door to many more problems where assumptions underlying formal hypothesis testing are not satisfied.&lt;/p&gt;
+
+&lt;p&gt;The second paragraph from  &lt;a href=&quot;http://www.ask.com/food/percentages-colors-skittles-bag-4ba965c64554571f?qo=questionPageSimilarContent&quot;&gt;http://www.ask.com&lt;/a&gt; provides more details on sampling variability:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&quot;However, due to occasional errors in the mixing process, each small sample of the overall batch will likely have deviations from the 20 percent that each color should represent. In a perfect world, the candy batch would be completely uniform before packaging, resulting in the perfect proportion of Skittles for each bag. Because errors result in minor deviations, Skittles&#39; consumers can expect to have anywhere from a 15 to 23 percent composition of any color when they open their bag.&quot;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The nullabor package makes it easy to generate lineups. Details on the package can be found &lt;a href=&quot;http://cran.r-project.org/web/packages/nullabor/index.html&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The position of the actual data plot in the latter two lineups were 17 and 7, respectively.&lt;/p&gt;
+</description>
+                <link>http://dicook.github.io/2014/11/03/nullabor</link>
+                <guid>http://dicook.github.io/2014/11/03/nullabor</guid>
+                <pubDate>2014-11-03T00:00:00-06:00</pubDate>
+        </item>
+
+        <item>
+                <title>Diversity</title>
+                <description>
+
+A number of colleagues tweeted about the the WIRED magazine article by Kathy Sierra titled [&quot;Why the Trolls Will Always Win&quot;](http://www.wired.com/2014/10/trolls-will-always-win/). I finally read it today. Its a very well-written, and gutsy article. (A  troll is abusive online personality, eg posts abusive comments, particularly taregeted at prominent women, incites conflict, narcissistically dominates discussions.) Kathy&#39;s article follows many recent news stories of women experiencing online attacks. In Kathy&#39;s experience, the natural responses do not work - leave, ignore them, fight back - trolls will win with each action. 
+
+Being a woman, in a math and computing dominated field where the numbers are still imbalanced, takes effort, but it is getting better. It is tiring, and wearing, being minority in a group. I am tired, and constantly doubt my validity, worth, contributions. 
+
+About the same time that the Wired article was printed, I was listening to an interview with [Michel Martin](http://en.wikipedia.org/wiki/Michel_Martin), the full transcript is available [here](http://www.onbeing.org/program/transcript/6801#main_content). Michel Martin hosted an NPR show titled &quot;Tell Me More&quot; but is beginning a new show &quot;NPR Presents Michel Martin&quot; this month. There are two messages that she gave that are very important for encouraging diversity, and fostering creativity:
+
+- &quot;...I felt like I had been in so many rooms where people kept talking about `we&#39; this and `we&#39; that, and they weren&#39;t talking about me. And again, it was not aimed at the mean, you know, racist people who don&#39;t want to hear it. It was aimed at the good people who are oblivious to other people&#39;s truths.&quot;
+- &quot;My real charge to people is to look around and see who&#39;s missing. And try to invite that person.&quot; 
+
+I would encourage you further:
+
+- If you have white male privilege, be aware of your power, in an anarchic environment, like the internet (like the school playground), stand up for victims of bullies. The bully will likely crumble to your challenge, and stop. Your challenge lets them know that you support the presence of the victim and value their contributions.
+- If you are a young up and coming researcher, believe in the authority of female researchers who have walked the path ahead of you, don&#39;t fall into the trap of assigning authority only to the males in your environment.
+- If you are working in men&#39;s sports statistics, pick a women&#39;s sport to study, also. 
+- Listen to the quiet voices, and watch people&#39;s actions.
+
+</description>
+                <link>http://dicook.github.io/2014/10/16/diversity</link>
+                <guid>http://dicook.github.io/2014/10/16/diversity</guid>
+                <pubDate>2014-10-16T00:00:00-05:00</pubDate>
+        </item>
+
+        <item>
+                <title>Statistical computing research</title>
+                <description>&lt;p&gt;During the week, I received final confirmation notice that the special issue of Statistical Science that Vince Carey and I put together is finally published. There are four papers from leaders in the field of statistical computing research: John Chambers, Duncan Temple Lang, Michael Lawrence and Michael Morgan (newly minted members of R Core) and Yihui Xie, Heike Hofmann and Xiaoyue Cheng. The links to the overview and the four papers are below.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://arxiv.org/abs/1409.8415&quot;&gt;Four Papers on Contemporary Software Design Strategies for Statistical Methodologists&lt;/a&gt; Vincent Carey and Dianne Cook&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://arxiv.org/abs/1409.3531&quot;&gt;Object-Oriented Programming, Functional Programming and R&lt;/a&gt; John Chambers&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://arxiv.org/abs/1409.2864&quot;&gt;Scalable Genomics with R and Bioconductor&lt;/a&gt; Michael Lawrence and Martin Morgan&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://arxiv.org/abs/1409.3144&quot;&gt;Enhancing R with Advanced Compilation Tools and Methods&lt;/a&gt; Duncan Temple Lang&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://arxiv.org/abs/1409.7256&quot;&gt;Reactive Programming for Interactive Graphics&lt;/a&gt; Yihui Xie, Heike Hofmann and Xiaoyue Cheng&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;These four papers document statistical computing research, and hopefully inspire talented young researchers to tackle ideas in these areas.&lt;/p&gt;
+
+&lt;p&gt;&quot;Statistical computing&quot; is different to &quot;computational statistics&quot;. Computational statistics research develops of algorithms for statistical analysis, eg project pursuit, importance sampling, maximum likelihood. Statistical computing research explores the availability of new technology for statistical purposes. There has been a long history of statistical computing research dating back, from my knowledge, to at least the 1960s. When computing languages were first being developed John Chambers, Rick Becker and Allan Wilks started thinking about how a language might support data analysis, and thus was the birth of the S language, which is used today in R. Statistical computing researchers have brought us systems such as S, Splus, R, SAS, SPSS, Systat, XLispStat, XploRe, DataDesk, GENSTAT, Minitab, Antelope, Dataviewer, QUAIL, XGobi, GGobi, Mondrian, Orca. I have missed a lot, I am sure, so if you know of more, please add them in comments at the end of the blog.&lt;/p&gt;
+
+&lt;p&gt;More than a decade ago, I documented a discussion between four attendees at a workshop on the future of statistical computing in the newsletter of the ASA Sections of Statistical Computing and Graphics, which can be found &lt;a href=&quot;http://stat-computing.org/newsletter/issues/scgn-13-1.pdf&quot;&gt;here&lt;/a&gt;. (BTW, If you browse these newsletters look for some real gems in the short articles, particularly many by Dan Carr on elegant data visualizations. This newsetter has largely been supplanted by the &lt;a href=&quot;http://journal.r-project.org/&quot;&gt;R Journal&lt;/a&gt; today.) There was concern about the future of statistical computing research in the face of declining support for these areas in industry research labs. Substantial accomplishments have historically come from places like Bell Labs. The big question was whether the research support could make the leap from these sources into academia.&lt;/p&gt;
+
+&lt;p&gt;Although, it is is still not easy, to a large extent statistical computing research has made the leap. The authors of three of these four papers are in academic positions.  In numerous departments around the world, statistical computing research is thriving. Some examples are University of Auckland, University of Waterloo, Augsburg University, Harvard Biostats (please add more in the comments!). From personal experience, we have had steady support from the administration at Iowa State University in promoting statistical computing research, especially focusing on graphics. In addition, new homes in industry have emerged,  like &lt;a href=&quot;http://www.rstudio.com/&quot;&gt;RStudio&lt;/a&gt; which is a hot-bed of open-source development,  and Genentech and FHCRC have brought us bioconductor.&lt;/p&gt;
+
+&lt;p&gt;With the growing importance of data science, to tackle big data problems, statistical computing is a critical area for the Statistics research.&lt;/p&gt;
+</description>
+                <link>http://dicook.github.io/2014/10/05/statistical-computing</link>
+                <guid>http://dicook.github.io/2014/10/05/statistical-computing</guid>
+                <pubDate>2014-10-05T00:00:00-05:00</pubDate>
+        </item>
+
+        <item>
+                <title>How good is Nick Kygrios?</title>
+                <description>&lt;p&gt;Nick Kygrios caught the world&#39;s attention in July at Wimbledon 2014 when he beat world number 1 Rafael Nadal.
+After the match McEnroe commented:&lt;/p&gt;
+
+&lt;p&gt;&quot;We&#39;ve been waiting for this for a while. We keep saying, `Who&#39;s the next guy?&#39;, and I think we found that guy right now.&quot; http://dailym.ai/1jlEfrc.&lt;/p&gt;
+
+&lt;p&gt;but Nadal seemed to beg to differ:&lt;/p&gt;
+
+&lt;p&gt;&quot;He has things, positive things, to be a good player. But everything is a little bit easier when you are arriving.&quot;&lt;/p&gt;
+
+&lt;p&gt;I scraped the data from the Wimbledon web site, for the first two rounds of the tournament to compare Nick&#39;s play with the other competitors. Making plots of these statistics we can learn that Nick really was pushing his game, or maybe he always pushes his game, making an extremely high number of unforced errors, but balancing this with a large number of winners. His statistics on first serve, receiving points and net points were comparable to the players who made it to the semi-finals. His second serve percentage was good but on the low side compared to the semi-finalists.&lt;/p&gt;
+
+&lt;p&gt;The relationship between the statistics and how far the competitors make it through the tournament is not simple. For example you might think that the more winners a player hits the better the chance that they win a match. This isn&#39;t true, and a wonderful example is Bethanie Mattek-Sands, who hit 81 winners in her 2012 Australian Open first round match, 30 more than any other player, and lost the match. It wasn&#39;t her that unforced errors were disproportionately high either, they were on the right side of the winners at 65. Players typically need to keep their statistics in a range, not too high and not too low, with a few exceptions. Hitting winners is important, but only up to a point, and it helps if there are more winners than unforced errors. Simply modeling the statistics against progression through the tournament doesn&#39;t work well. Making plots we can see the relationships, but we can also imagine relationships when they don&#39;t actually exist.&lt;/p&gt;
+
+&lt;p&gt;Making plots of the data in the context of plots where there is no relationship, using permutations, can help assess the importance of the relationship. See &lt;a href=&quot;http://chance.amstat.org/2014/09/nick-kyrgios/&quot;&gt;Chance column&lt;/a&gt; for more information on how this was done for Nick Kygrios&#39; statistics.&lt;/p&gt;
+
+&lt;p&gt;Since that article was written we have had the luxury of seeing Nick in his next grand slam tournament, the 2014 US Open. He had a tough draw, Youzhny in the first round, Seppi in the second, and Robredo in the third. His statistics were up there again, comparable with the best. But his main problem right now is the wildness: against Robredo, as it happened against Raonic in Wimbledon, playing against a steady opponent willing to wait for their chances to strike back, toppled his game. He has the physical game, but his mental game is not at its necessary level to be a champion yet.&lt;/p&gt;
+</description>
+                <link>http://dicook.github.io/2014/09/28/kygios</link>
+                <guid>http://dicook.github.io/2014/09/28/kygios</guid>
+                <pubDate>2014-09-28T00:00:00-05:00</pubDate>
+        </item>
+
+        <item>
+                <title>Facetted barcharts, and fluctuation diagrams are good alternatives to stacked barcharts</title>
+                <description>&lt;p&gt;When there are two categorical variables it is common to make a stacked barchart. The stacked barchart primarily allows the reader to see the overall count, but it is harder to compare the counts of categories, the colored segments. Using data from the vcd package in R, here is an example. The data describes the responses of couples on questions about their sex life.&lt;/p&gt;
+
+&lt;p&gt;This is a bar chart showing the husbands views, with his wifes&#39; views forming the stacking. The primary message is that mostly husbands say that Sex is &quot;Always Fun&quot;.  Separately, we can see that the color strips are not of equal length in each bar, which would indicated some difference with the wife&#39;s viewpoint, but it takes some work to dig in deeper to digest how they are different.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://dicook.github.io/assets/stackedbar-husband.jpg&quot; alt=&quot;&amp;quot;stacked bar 1&amp;quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Same data, arranged differently. The bars represent the wifes&#39; views, and the husbands&#39; responses forming the stacking. The distribution of wifes&#39; responses is different to the husbands (previous barchart) - wives respond with &quot;Fairly Often&quot; more frequently than husbands.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://dicook.github.io/assets/stackedbar-wife.jpg&quot; alt=&quot;&amp;quot;stacked bar 2&amp;quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;It would also be common to show these as 100% charts, to read off the proportions. Showing both the barchart and the 100% chart enables viewing the overall frequencies, and the proportions within each category. It requires that the reader shift back and forward between the two plots to take both requency and proportion into account, which is hard work.&lt;/p&gt;
+
+&lt;p&gt;One alternative is to create separate bar charts for each response category for the other variable, as done below. The distribution of frequencies in each category are now easy to read (but overall count is more difficult). The main message is that the distribution of husbands&#39; responses is different depending on the wifes&#39; responses. When the wife responds &quot;Never Fun&quot; the husband typically also responds &quot;Never Fun&quot;. If the wife responds &quot;Always Fun&quot; the husband tends to respond &quot;Always Fun&quot; too. When the wife responds &quot;Fairly Often&quot; the husbands&#39; responses are uniform across the four possible answers.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://dicook.github.io/assets/facettedbar-husband.jpg&quot; alt=&quot;&amp;quot;stacked bar 1&amp;quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Rearranging in the opposite order changes the focus to wifes&#39; responses given the husbands&#39; responses.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://dicook.github.io/assets/facettedbar-wife.jpg&quot; alt=&quot;&amp;quot;stacked bar 2&amp;quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Using both arrangements we can the asymmetry between each member of the couples responses.&lt;/p&gt;
+
+&lt;p&gt;To better read the symmetry, or asymmetry, show the data as a fluctuation diagram. Here the boxes reflect the count for the combination of the categories. The main message is that the couples agree, roughly, on the perception of sex (bigger boxes on leading diagonal), and there is asymmetry in the couples separate responses (boxes above and below diagonal are not equal size).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://dicook.github.io/assets/fluctuation2.jpg&quot; alt=&quot;&amp;quot;fluctuation&amp;quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In summary, it is recommended to do a suite of plots rather than one single plot for problems like this, with the suggested set being:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;overall frequency for each variable using a single barchart for each variable&lt;/li&gt;
+&lt;li&gt;facetted bar chart, arranged in two ways&lt;/li&gt;
+&lt;li&gt;fluctuation diagram&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;See &lt;a href=&quot;http://journal.r-project.org/archive/2013-1/hofmann-unwin-cook.pdf&quot;&gt;Unwin et al&lt;/a&gt; for more information about creating suites of plots to display data.&lt;/p&gt;
+</description>
+                <link>http://dicook.github.io/2014/09/25/facetted-barcharts</link>
+                <guid>http://dicook.github.io/2014/09/25/facetted-barcharts</guid>
+                <pubDate>2014-09-25T00:00:00-05:00</pubDate>
+        </item>
+
+        <item>
+                <title>A Graphical Expedition into a Statistics Gradebook</title>
+                <description>&lt;p&gt;It is always with a sense of unease that I reduce a whole semester&#39;s work into a single letter grade, and to alleviate this feeling, I often pack the gradebook into an interactive graphics system like ggobi or cranvas, and perambulate over it. In the second issue of Chance 2014, I wrote about doing this on grades for a large introductry statistics class using interactive graphics. The class had on the order of 100 students, and grades from exams, homeworks, labs, worksheets, online quizzes and a data analysis project.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://chance.amstat.org/2014/04/visiphilia-27-2/&quot;&gt;Read more&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Videos of the exploration are available at:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://vimeo.com/86429112&quot;&gt;Exploring exam scores&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://vimeo.com/86429113&quot;&gt;Touring exam scores&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://vimeo.com/86429114&quot;&gt;Clustering exam scores&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://vimeo.com/86828517&quot;&gt;All scores&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+                <link>http://dicook.github.io/2014/09/13/exploring-gradebook</link>
+                <guid>http://dicook.github.io/2014/09/13/exploring-gradebook</guid>
+                <pubDate>2014-09-13T00:00:00-05:00</pubDate>
+        </item>
+
+        <item>
+                <title>Testing this blog out</title>
+                <description>&lt;p&gt;This is a test to see whether the automatic build of blog posts is working&lt;/p&gt;
+</description>
+                <link>http://dicook.github.io/2014/09/12/testing-this-blog-out</link>
+                <guid>http://dicook.github.io/2014/09/12/testing-this-blog-out</guid>
+                <pubDate>2014-09-12T00:00:00-05:00</pubDate>
+        </item>
+
+
+</channel>
+</rss>
