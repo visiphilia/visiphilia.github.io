@@ -16,36 +16,36 @@ permalink: /:year/:month/:day/:title
 
 navigation:
 - text: Home
-  url: /index.html
+  url: http://dicook.github.io/index.html
 - text: Blog
-  url: /blog.html
+  url: /index.html
   layout: post_ak
 - text: Research
-  url: /research.html
+  url: http://dicook.github.io/research.html
 - text: Teaching
-  url: /teaching.html
+  url: http://dicook.github.io/teaching.html
 - text: CV
-  url: /cv.html
+  url: http://dicook.github.io/cv.html
 
 blognav:
 - text: Home
-  url: /blog.html
+  url: /index.html
   layout: post_ak
 - text: ISU Statistical Graphics
-  url: /graphics.html
+  url: http://dicook.github.io/graphics.html
   layout: default_wg
 - text: NUMBATS
   url: http://numbats.github.io
 
 wg:
 - text: Spring 2015
-  url: /graphics.html
+  url: http://dicook.github.io/graphics.html
   layout: default_wg
 - text: Fall 2014
-  url: /graphics-f14.html
+  url: http://dicook.github.io/graphics-f14.html
   layout: default_wg
 - text: Blog
-  url: /blog.html
+  url: /index.html
   layout: post_ak
 
 
@@ -101,7 +101,7 @@ JB :
   # These paths are to the main pages Jekyll-Bootstrap ships with.
   # Some JB helpers refer to these paths; change them here if needed.
   #
-  home_path: /blog.html
+  home_path: /index.html
   archive_path: /archive.html
   categories_path : /categories.html
   tags_path : /tags.html
