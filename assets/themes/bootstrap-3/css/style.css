@@ -28,13 +28,6 @@ body {
   float: none !important;
 }
 
-div content {
-  font-size: 0.9em;
-  max-width: 800px;
-  margin: 0 auto !important;
-  float: none !important;
-}
-
 /* posts index */
 .post > h3.title {
   position: relative;
