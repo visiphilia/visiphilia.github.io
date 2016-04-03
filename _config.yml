@@ -16,7 +16,7 @@ permalink: /:year/:month/:day/:title
 
 navigation:
 - text: Home
-  url: http://visiphilia.github.io/index.html
+  url: http://visiphilia.org/index.html
 - text: Blog
   url: /index.html
   layout: post_ak
