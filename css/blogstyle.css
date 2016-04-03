@@ -144,8 +144,9 @@ img.float-left {
 code {
     margin: 10px 10px 0px 0px;
     text-align: left;
+    overflow: pre;  
     font: 0.9em/0.7em 'courier new', monospace;
-  /* white-space: pre; */   
+    white-space: pre;  
     background: #FCFCF9;
     color: #336699; 
 }
@@ -156,7 +157,7 @@ acronym {
 blockquote {
 	margin: 15px;
  	padding: 30px 0 0 30px;  	
-  	font: bold 0.7em/1.5em 'Trebuchet MS', Sans-serif;   
+  	font: bold 1.3em/1.5em 'Trebuchet MS', Sans-serif;   
 	background: #FCFCF9;
 	color: #6C6E3A;
 }
