@@ -124,7 +124,7 @@ The theme of the day was sustainability. From the sensor data exploration a coup
 - Relieve the pressure on Flinders Street by placing more weekend activities or tourist locations near Southern Cross and Flagstaff stations. 
 - Placing more sensors around Southern Cross and Melbourne Central could help study flow of pedestrians. There are clearly a lot of people entering the city through these ports, especially on weekdays, but there is a big spatial gap in sensors in these neighborhoods making it hard to see where people go after these points.
 
-Finally, the day was very successful. How the students tackled working with the pedestrian sensor data was outstanding. I hope that they can take some of these ideas back to the classroom, and to think about becoming a quantitative citizen. 
+Finally, the day was very successful. How the students tackled working with the pedestrian sensor data was outstanding. You cannot learn R in two hours, but  I hope that they can take some of these ideas back to the classroom, and to think about using dat analytics to become a quantitative citizen. 
 
 ### Acknowledgements
 
@@ -135,3 +135,5 @@ Data and analyses were made possible with open data and open source software. Th
 The Monash Big Data Challenge Day was organised by Kate Galati and Stephanie Hah. 
 
 [Here is the script](http://visiphilia.github.io/assets/pedestrians/data-analytics-worksheet.R)  for reproducing the plots shown, used on the data downloaded from the csv file from  [Melbourne Open Data](https://data.melbourne.vic.gov.au/Transport-Movement/Pedestrian-Counts/b2ak-trbp).
+
+[Slides for the master class are available here.](http://visiphilia.github.io/assets/data-analytics-slides.pdf)
