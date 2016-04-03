@@ -17,15 +17,15 @@
 * { padding: 0; margin: 0; }
 
 body {
-	margin: 0; 	
-        padding: 0;
-	font: normal 1.25em/1.15em Candara, 'Trebuchet MS', Tahoma, sans-serif;
-	color: #555;
-	text-align: left;
-	background: #FFFFFF;	
-        max-width: 800px;
-        margin: 0 auto !important;
-        float: none !important;
+    margin: 0; 	
+    padding: 0;
+    font: normal 1.25em/1.15em Candara, 'Trebuchet MS', Tahoma, sans-serif;
+    color: #555;
+    text-align: left;
+    background: #FFFFFF;	
+    max-width: 800px;
+    margin: 0 auto !important;
+    float: none !important;
 }
 
 /* links */
@@ -351,26 +351,31 @@ input.button {
 
 /* content */
 #content-wrap {
-	clear: both;
-	background: #FFF #FFF;
-        max-width: 100px;
-        margin: 0 auto !important;
-        float: none !important;
+    clear: both;
+    background: #FFF #FFF;
+    max-width: 100px;
+    margin: 0 auto !important;
+    float: none !important;
 }
 #content {
-	text-align: left;	
-        margin-left: 0px;
-	padding: 0;	
-        max-width: 100px;
-        margin: 0 auto !important;
-        float: none !important;
+    text-align: left;	
+    margin-left: 0px;
+    padding: 0;	
+    max-width: 100px;
+    margin: 0 auto !important;
+    float: none !important;
 }
 
 #content h1 {
-	font: normal 1.4em Georgia, "Times New Roman", Times, serif;
-	color: ##F88F26;
+    font: normal 1.4em Georgia, "Times New Roman", Times, serif;
+    color: ##F88F26;
 }
 
+#content p {
+    max-width: 100px;
+    margin: 0 auto !important;
+    float: none !important;
+}
 
 /* main */
 #main1 {
