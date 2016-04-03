@@ -144,9 +144,9 @@ img.float-left {
 code {
     margin: 10px 10px 0px 0px;
     text-align: left;
-    overflow: pre;  
+    overflow: auto;  
     font: 0.9em/0.7em 'courier new', monospace;
-    white-space: pre;  
+  /* white-space: pre; */   
     background: #FCFCF9;
     color: #336699; 
 }
