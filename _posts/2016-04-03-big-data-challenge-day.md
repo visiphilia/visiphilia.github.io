@@ -31,7 +31,7 @@ Source: local data frame [6 x 4]
 
 ```
 
-used `lubridate` to process the date into more useful units:
+Followed by using `lubridate` to process the date into more useful and meaningful units:
 
 ```
 > pedestrian$Date <- as.Date(substr(pedestrian$DateTime, 1, 11), format="%d-%b-%Y")
