@@ -23,6 +23,9 @@ body {
 	color: #555;
 	text-align: left;
 	background: #FFFFFF;	
+        max-width: 800px;
+        margin: 0 auto !important;
+        float: none !important;
 }
 
 /* links */
@@ -351,14 +354,19 @@ s	display: block;
 #content-wrap {
 	clear: both;
 	background: #FFF #FFF;
-	float: left;		
 	width: 100%;
+        max-width: 800px;
+        margin: 0 auto !important;
+        float: none !important;
 }
 #content {
 	text-align: left;	
 	margin: 0px auto;
         margin-left: 0px;
 	padding: 0;	
+        max-width: 800px;
+        margin: 0 auto !important;
+        float: none !important;
 }
 
 #content h1 {
