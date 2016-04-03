@@ -10,7 +10,7 @@ Thursday was a challenging day. Monash University organised a Big Data Challenge
 
 The task was to examine the hourly counts of pedestrians taken from sensors spread around the city, some of which have been recording since 2009. No-one had used R before. 
 
-### Preliminary descriptions
+## Preliminary descriptions
 
 ![map](http://visiphilia.github.io/assets/pedestrians/locations.png)
 
@@ -74,7 +74,7 @@ These are side-by-side boxplots of counts by hour of day at this location, separ
 
 This plot breaks down the counts by day of the week and month, and connects values for each day as a line. The February, Saturday, White night events can be seen. The high counts for Thursday correspond to December, actually can be worked out to be Christmas Eve 2015. The week day to weekend pattern is still visible. There is a difference in the variability in counts from month to month, with December being the most variable from ewek to week. You can see some public holidays, lines of low counts on Fridays in January, March and April. 
 
-### This is what the high school students discovered?
+## This is what the high school students discovered?
 
 The students were tasked with coming up with some questions that they'd like to answer with the data, and make the appropriate plots and analysis to answer their questions. The results were very impressive.
 
@@ -117,7 +117,7 @@ Team 4 (Isabella, Milly, Aravind, Sarath and William) looked at times of heavies
 
 Team 12 (nicknamed JACCHammers, Janet, Justin, Andrew, Clare, Chathura and Hasini) went after low pedestrian counts at all locations to recommend times when construction would provide the least disturbance of pedestrian activity. 
 
-### Wrap up
+## Wrap up
 
 The theme of the day was sustainability. From the sensor data exploration a couple of suggestions could be made:
 
