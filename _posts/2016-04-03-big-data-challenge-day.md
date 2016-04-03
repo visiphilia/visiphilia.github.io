@@ -10,54 +10,59 @@ Thursday was a challenging day. I was somewhat nervous about working with approx
 
 ### Preliminary descriptions
 
-![map]({{ site.url }}/assets/pedestrians/locations.pdf)
+![map]({{ site.url }}/assets/pedestrians/locations.png)
 
 We started by reading in the data from the full csv download, the top few lines look like:
 
 ```
-pedestrian <- read_csv("data/Pedestrian_Counts.csv",
+> pedestrian <- read_csv("data/Pedestrian_Counts.csv",
       col_names=c("DateTime","SensorID","SensorName","Counts"), skip=1)
-```
+> head(pedestrian)
+Source: local data frame [6 x 4]
 
-|DateTime          | SensorID|SensorName                 | Counts|
-|:-----------------|--------:|:--------------------------|------:|
-|01-MAY-2009 00:00 |        4|Town Hall (West)           |    209|
-|01-MAY-2009 00:00 |       17|Collins Place (South)      |     28|
-|01-MAY-2009 00:00 |       18|Collins Place (North)      |     36|
-|01-MAY-2009 00:00 |       16|Australia on Collins       |     22|
-|01-MAY-2009 00:00 |        2|Bourke Street Mall (South) |     52|
-|01-MAY-2009 00:00 |        1|Bourke Street Mall (North) |     53|
+           DateTime SensorID                 SensorName Counts
+              (chr)    (int)                      (chr)  (int)
+1 01-MAY-2009 00:00        4           Town Hall (West)    209
+2 01-MAY-2009 00:00       17      Collins Place (South)     28
+3 01-MAY-2009 00:00       18      Collins Place (North)     36
+4 01-MAY-2009 00:00       16       Australia on Collins     22
+5 01-MAY-2009 00:00        2 Bourke Street Mall (South)     52
+6 01-MAY-2009 00:00        1 Bourke Street Mall (North)     53
+```
 
 used `lubridate` to process the date into more useful units:
 
 ```
-pedestrian$Date <- as.Date(substr(pedestrian$DateTime, 1, 11), format="%d-%b-%Y")
-pedestrian$Year <- year(pedestrian$Date)
-pedestrian$Month <- month(pedestrian$Date, label=TRUE, abbr=TRUE)
-pedestrian$Day <- wday(pedestrian$Date, label=TRUE) # and re-order days
-pedestrian$Day <- factor(pedestrian$Day, levels = levels(pedestrian$Day)[c(2:7, 1)])
-pedestrian$Hour <- as.numeric(substr(pedestrian$DateTime, 13, 14))
-pedestrian <- pedestrian %>% group_by(SensorID) %>% 
-  mutate(Time=as.numeric(Date - min(Date, na.rm=T))*24 + Hour)
-pedestrian <- pedestrian %>% filter(Date >= as.Date("2013-01-01"))
-```
+> pedestrian$Date <- as.Date(substr(pedestrian$DateTime, 1, 11), format="%d-%b-%Y")
+> pedestrian$Year <- year(pedestrian$Date)
+> pedestrian$Month <- month(pedestrian$Date, label=TRUE, abbr=TRUE)
+> pedestrian$Day <- wday(pedestrian$Date, label=TRUE) # and re-order days
+> pedestrian$Day <- factor(pedestrian$Day, levels = levels(pedestrian$Day)[c(2:7, 1)])
+> pedestrian$Hour <- as.numeric(substr(pedestrian$DateTime, 13, 14))
+> pedestrian <- pedestrian %>% group_by(SensorID) %>% 
++   mutate(Time=as.numeric(Date - min(Date, na.rm=T))*24 + Hour)
+> pedestrian <- pedestrian %>% filter(Date >= as.Date("2013-01-01"))
+> head(pedestrian)
+Source: local data frame [6 x 10]
+Groups: SensorID [6]
 
-|DateTime          | SensorID|SensorName                 | Counts|Date       | Year|Month |Day | Hour| Time|
-|:-----------------|--------:|:--------------------------|------:|:----------|----:|:-----|:---|----:|----:|
-|01-MAY-2009 00:00 |        4|Town Hall (West)           |    209|2009-05-01 | 2009|May   |Fri |    0|    0|
-|01-MAY-2009 00:00 |       17|Collins Place (South)      |     28|2009-05-01 | 2009|May   |Fri |    0|    0|
-|01-MAY-2009 00:00 |       18|Collins Place (North)      |     36|2009-05-01 | 2009|May   |Fri |    0|    0|
-|01-MAY-2009 00:00 |       16|Australia on Collins       |     22|2009-05-01 | 2009|May   |Fri |    0|    0|
-|01-MAY-2009 00:00 |        2|Bourke Street Mall (South) |     52|2009-05-01 | 2009|May   |Fri |    0|    0|
-|01-MAY-2009 00:00 |        1|Bourke Street Mall (North) |     53|2009-05-01 | 2009|May   |Fri |    0|    0|
+           DateTime SensorID                 SensorName Counts       Date  Year  Month    Day  Hour  Time
+              (chr)    (int)                      (chr)  (int)     (date) (dbl) (fctr) (fctr) (dbl) (dbl)
+1 01-JAN-2013 00:00        4           Town Hall (West)   2992 2013-01-01  2013    Jan   Tues     0 32184
+2 01-JAN-2013 00:00       17      Collins Place (South)    979 2013-01-01  2013    Jan   Tues     0 32184
+3 01-JAN-2013 00:00       18      Collins Place (North)    413 2013-01-01  2013    Jan   Tues     0 32184
+4 01-JAN-2013 00:00       16       Australia on Collins    807 2013-01-01  2013    Jan   Tues     0 32184
+5 01-JAN-2013 00:00        2 Bourke Street Mall (South)    785 2013-01-01  2013    Jan   Tues     0 32184
+6 01-JAN-2013 00:00        1 Bourke Street Mall (North)    651 2013-01-01  2013    Jan   Tues     0 32184
+```
 
 We also subset the data to ignore counts before January 2013, because the counts were more consistently measured in recent years. To start simply only counts for one location, sensor 1, Bourke Street Mall (North), were examined. Here are a few pictures. 
 
-![hourly]({{ site.url }}/assets/pedestrians/timeplots-1.pdf)
+![hourly]({{ site.url }}/assets/pedestrians/timeplots-1.png)
 
 These are side-by-side boxplots of counts by hour of day at this location, for all days. You can see there are rarely pedestrians between midnight and 6am, but numbers start climbing from 7am through noon, staty fairly flat until 5pm and then decline rapidly as the evening progresses. There are some large counts, which can be seen later to come from ["White Night"](http://whitenightmelbourne.com.au).
 
-![day]({{ site.url }}/assets/pedestrians/timeplots-ex1-1.pdf)
+![day]({{ site.url }}/assets/pedestrians/timeplots-ex1-1.png)
 
 These are side-by-side boxplots of counts by hour of day at this location, separately by day of week. A different week day to weekend pattern can be seen. On the weekends there is a steady increase  in counts to mid-afternoon and then a slow decrease. The outliers (white night) were on a Saturday evening, and Thursday has a pattern of high counts, which we cannot yet provide an explanation.
 
