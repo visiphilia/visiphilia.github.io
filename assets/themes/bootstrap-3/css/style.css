@@ -28,7 +28,7 @@ body {
   float: none !important;
 }
 
-content {
+div content {
   font-size: 0.9em;
   max-width: 800px;
   margin: 0 auto !important;
