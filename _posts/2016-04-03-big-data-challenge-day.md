@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Talented High School Seniors Use R to Analyse Pedestrian Movements in Melbourne"
+title: "Pedestrian patterns in Melbourne CBD"
 author: visnut
 tags: [education,statistics,EDA,data mining,R,statistical computing,statistical graphics,data wrangling]
 ---
