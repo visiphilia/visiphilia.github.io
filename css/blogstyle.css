@@ -353,8 +353,7 @@ input.button {
 #content-wrap {
 	clear: both;
 	background: #FFF #FFF;
-	width: 100%;
-        max-width: 800px;
+        max-width: 100px;
         margin: 0 auto !important;
         float: none !important;
 }
