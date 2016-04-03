@@ -145,9 +145,9 @@ code {
   margin: 10px 10px 0px 0px;
   text-align: left;
   overflow: auto;  
-  font: 0.5em/0.6em 'Lucida Console', 'courier new', monospace;
+  font: 0.9em/1.5em 'courier new', monospace;
   /* white-space: pre; */   
-  background: #FCFCF9;
+  background: #555;
 }
 acronym {
   cursor: help;
@@ -617,7 +617,7 @@ input.button {
 .knitr.r {
   background-color: #f7f7f7;
   border:solid 1px #B0B0B0;
-  font-size: 1.0em
+  font-size: 0.7em
 }
 
 .knitr.inline {
