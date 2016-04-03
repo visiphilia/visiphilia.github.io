@@ -64,7 +64,7 @@ We also subset the data to ignore counts before January 2013, because the counts
 
 ![hourly](http://visiphilia.github.io/assets/pedestrians/timeplots-1.png)
 
-These are side-by-side boxplots of counts by hour of day at this location, for all days. You can see there are rarely pedestrians between midnight and 6am, but numbers start climbing from 7am through noon, staty fairly flat until 5pm and then decline rapidly as the evening progresses. There are some large counts, which can be seen later to come from ["White Night"](http://whitenightmelbourne.com.au).
+These are side-by-side boxplots of counts by hour of day at this location, for all days. You can see there are rarely pedestrians between midnight and 6am, but numbers start climbing from 7am through noon, stay fairly flat until 5pm and then decline rapidly as the evening progresses. There are some large counts, which can be seen later to come from ["White Night"](http://whitenightmelbourne.com.au).
 
 ![day](http://visiphilia.github.io/assets/pedestrians/timeplots-ex1-1.png)
 
@@ -72,7 +72,7 @@ These are side-by-side boxplots of counts by hour of day at this location, separ
 
 ![day-month](http://visiphilia.github.io/assets/pedestrians/timeplots-ex2-1.png)
 
-This plot breaks down the counts by day of the week and month, and connects values for each day as a line. The February, Saturday, White night events can be seen. The high counts for Thursday correspond to December, actually can be worked out to be Christmas Eve 2015. The week day to weekend pattern is still visible. There is a difference in the variability in counts from month to month, with December being the most variable from ewek to week. You can see some public holidays, lines of low counts on Fridays in January, March and April. 
+This plot breaks down the counts by day of the week and month, and connects values for each day as a line. The February, Saturday, White night events can be seen. The high counts for Thursday correspond to December, actually can be worked out to be Boxing Day sales. The week day to weekend pattern is still visible. There is a difference in the variability in counts from month to month, with December being the most variable from week to week. You can see some public holidays, lines of low counts on Fridays in January, March and April. 
 
 ## What the high school seniors discovered
 
@@ -86,14 +86,14 @@ The plot shows the counts for the four train stations for January 2016, with wee
 
 Team 8 (Jason, Nicky, Leander, Michael and Zoe) compared pedestrian traffic at Flinders St station with the Bourke St Mall (shown earlier) and noticed the triple peak week day pattern at Flinders. 
 
-Team 3 (Ruth, Evelyn, Alex and Reuben) also looked at train station traffic (Flinders vs Melbourne Central) using side-by-side boxplots which exaggerated the weekday/end difference at Flinders station, in the timing of peak traffic, and lack of difference at Lembourne Central. 
+Team 3 (Ruth, Evelyn, Alex and Reuben) also looked at train station traffic (Flinders vs Melbourne Central) using side-by-side boxplots which exaggerated the weekday/end difference at Flinders station, in the timing of peak traffic, and lack of difference at Melbourne Central. 
 
 Team 5 (Erin, Sarah, Fiona, Zak, and Wencheng) asked if the Queen Vic market pedestrian traffic (also a shopping area) was similar to the Bourke Street Mall. They suspected a different pattern between the two, with QV being more a weekend location, less central to the city, and with no name, small businesses. 
 
 ![team5](http://visiphilia.github.io/assets/pedestrians/team5-bourke.png)
 ![team5](http://visiphilia.github.io/assets/pedestrians/team5-QV.png)
 
-And they noticed a big difference form the side-by-side boxplots. QV is quiet on week days, but has a strong peak on some Wednesdays which corresponds to the summer Wednesday "night markets". White night can be seen at both locations. Bourke Street Mall is the busier shopping area by overall count. 
+And they noticed a big difference from the side-by-side boxplots. QV is quiet on week days, but has a strong peak on some Wednesdays which corresponds to the summer Wednesday "night markets". White night can be seen at both locations. Bourke Street Mall is the busier shopping area by overall count. 
 
 Team 10 (William, James, Irene and Genevieve) compared pedestrian traffic at all locations on grand final day (red in plot below) with all other Saturdays in September. 
 
@@ -124,7 +124,7 @@ The theme of the day was sustainability. From the sensor data exploration a coup
 - Relieve the pressure on Flinders Street by placing more weekend activities or tourist locations near Southern Cross and Flagstaff stations. 
 - Placing more sensors around Southern Cross and Melbourne Central could help study flow of pedestrians. There are clearly a lot of people entering the city through these ports, especially on weekdays, but there is a big spatial gap in sensors in these neighborhoods making it hard to see where people go after these points.
 
-Finally, the day was very successful. How the students tackled working with the pedestrian sensor data was outstanding. You cannot learn R in two hours, but  I hope that they can take some of these ideas back to the classroom, and to think about using dat analytics to become a quantitative citizen. 
+Finally, the day was very successful. How the students tackled working with the pedestrian sensor data was outstanding. You cannot learn R in two hours, but  I hope that they can take some of these ideas back to the classroom, and to think about using data analytics to become a quantitative citizen. 
 
 ### Acknowledgements
 
