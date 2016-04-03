@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "High School Math Majors Analyse Pedestrian Movements in Melbourne"
+title: "Talented High School Seniors Use R to Analyse Pedestrian Movements in Melbourne"
 author: visnut
 tags: [education,statistics,EDA,data mining,R,statistical computing,statistical graphics,data wrangling]
 ---
@@ -28,6 +28,7 @@ Source: local data frame [6 x 4]
 4 01-MAY-2009 00:00       16       Australia on Collins     22
 5 01-MAY-2009 00:00        2 Bourke Street Mall (South)     52
 6 01-MAY-2009 00:00        1 Bourke Street Mall (North)     53
+
 ```
 
 used `lubridate` to process the date into more useful units:
@@ -54,6 +55,7 @@ Groups: SensorID [6]
 4 01-JAN-2013 00:00       16       Australia on Collins    807 2013-01-01  2013    Jan   Tues     0 32184
 5 01-JAN-2013 00:00        2 Bourke Street Mall (South)    785 2013-01-01  2013    Jan   Tues     0 32184
 6 01-JAN-2013 00:00        1 Bourke Street Mall (North)    651 2013-01-01  2013    Jan   Tues     0 32184
+
 ```
 
 We also subset the data to ignore counts before January 2013, because the counts were more consistently measured in recent years. To start simply only counts for one location, sensor 1, Bourke Street Mall (North), were examined. Here are a few pictures. 
@@ -66,7 +68,7 @@ These are side-by-side boxplots of counts by hour of day at this location, for a
 
 These are side-by-side boxplots of counts by hour of day at this location, separately by day of week. A different week day to weekend pattern can be seen. On the weekends there is a steady increase  in counts to mid-afternoon and then a slow decrease. The outliers (white night) were on a Saturday evening, and Thursday has a pattern of high counts, which we cannot yet provide an explanation.
 
-![day-month]({{ site.url }}/assets/pedestrians/timeplots-ex2-1.pdf)
+![day-month]({{ site.url }}/assets/pedestrians/timeplots-ex2-1.png)
 
 This plot breaks down the counts by day of the week and month, and connects values for each day as a line. The February, Saturday, White night events can be seen. The high counts for Thursday correspond to December, actually can be worked out to be Christmas Eve 2015. The week day to weekend pattern is still visible. There is a difference in the variability in counts from month to month, with December being the most variable from ewek to week. You can see some public holidays, lines of low counts on Fridays in January, March and April. 
 
