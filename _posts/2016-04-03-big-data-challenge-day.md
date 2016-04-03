@@ -10,7 +10,7 @@ Thursday was a challenging day. I was somewhat nervous about working with approx
 
 ### Preliminary descriptions
 
-![map]({{ site.url }}/assets/pedestrians/locations.png)
+![map](http://visiphilia.github.io/assets/pedestrians/locations.png)
 
 We started by reading in the data from the full csv download, the top few lines look like:
 
@@ -60,11 +60,11 @@ Groups: SensorID [6]
 
 We also subset the data to ignore counts before January 2013, because the counts were more consistently measured in recent years. To start simply only counts for one location, sensor 1, Bourke Street Mall (North), were examined. Here are a few pictures. 
 
-![hourly]({{ site.url }}/assets/pedestrians/timeplots-1.png)
+![hourly](http://visiphilia.github.io/assets/pedestrians/timeplots-1.png)
 
 These are side-by-side boxplots of counts by hour of day at this location, for all days. You can see there are rarely pedestrians between midnight and 6am, but numbers start climbing from 7am through noon, staty fairly flat until 5pm and then decline rapidly as the evening progresses. There are some large counts, which can be seen later to come from ["White Night"](http://whitenightmelbourne.com.au).
 
-![day]({{ site.url }}/assets/pedestrians/timeplots-ex1-1.png)
+![day](http://visiphilia.github.io/assets/pedestrians/timeplots-ex1-1.png)
 
 These are side-by-side boxplots of counts by hour of day at this location, separately by day of week. A different week day to weekend pattern can be seen. On the weekends there is a steady increase  in counts to mid-afternoon and then a slow decrease. The outliers (white night) were on a Saturday evening, and Thursday has a pattern of high counts, which we cannot yet provide an explanation.
 
