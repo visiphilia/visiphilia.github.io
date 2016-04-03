@@ -68,7 +68,7 @@ These are side-by-side boxplots of counts by hour of day at this location, for a
 
 These are side-by-side boxplots of counts by hour of day at this location, separately by day of week. A different week day to weekend pattern can be seen. On the weekends there is a steady increase  in counts to mid-afternoon and then a slow decrease. The outliers (white night) were on a Saturday evening, and Thursday has a pattern of high counts, which we cannot yet provide an explanation.
 
-![day-month]({{ site.url }}/assets/pedestrians/timeplots-ex2-1.png)
+![day-month](http://visiphilia.github.io/assets/pedestrians/timeplots-ex2-1.png)
 
 This plot breaks down the counts by day of the week and month, and connects values for each day as a line. The February, Saturday, White night events can be seen. The high counts for Thursday correspond to December, actually can be worked out to be Christmas Eve 2015. The week day to weekend pattern is still visible. There is a difference in the variability in counts from month to month, with December being the most variable from ewek to week. You can see some public holidays, lines of low counts on Fridays in January, March and April. 
 
@@ -78,7 +78,7 @@ The students were tasked with coming up with some questions that they'd like to 
 
 Team 6 (Matthew, Jackson, Daniel, Ivy, Clare and Hanze) tackled the question "Does the pedestrian count around the train stations differ during weekends and weekdays?" They made this plot of four sensor locations. 
 
-![team6]({{ site.url }}/assets/pedestrians/team6.png)
+![team6](http://visiphilia.github.io/assets/pedestrians/team6.png)
 
 The plot shows the counts for the four train stations for January 2016, with weekend vs week days differentiated by colour.  Flagstaff, Flinders Steet and Southern Cross stations show the distinct difference in patterns, but Melbourne Central has a similar pattern regardless of the type of day. Flinders Street has a different pattern but it is still very busy on a weekend, just later in the day. Flagstaff and Southern Cross are very quiet on weekends. 
 
@@ -88,26 +88,26 @@ Team 3 (Ruth, Evelyn, Alex and Reuben) also looked at train station traffic (Fli
 
 Team 5 (Erin, Sarah, Fiona, Zak, and Wencheng) asked if the Queen Vic market pedestrian traffic (also a shopping area) was similar to the Bourke Street Mall. They suspected a different pattern between the two, with QV being more a weekend location, less central to the city, and with no name, small businesses. 
 
-![team5]({{ site.url }}/assets/pedestrians/team5-bourke.png)
-![team5]({{ site.url }}/assets/pedestrians/team5-QV.png)
+![team5](http://visiphilia.github.io/assets/pedestrians/team5-bourke.png)
+![team5](http://visiphilia.github.io/assets/pedestrians/team5-QV.png)
 
 And they noticed a big difference form the side-by-side boxplots. QV is quiet on week days, but has a strong peak on some Wednesdays which corresponds to the summer Wednesday "night markets". White night can be seen at both locations. Bourke Street Mall is the busier shopping area by overall count. 
 
 Team 10 (William, James, Irene and Genevieve) compared pedestrian traffic at all locations on grand final day (red in plot below) with all other Saturdays in September. 
 
-![team10]({{ site.url }}/assets/pedestrians/team10.png)
+![team10](http://visiphilia.github.io/assets/pedestrians/team10.png)
 
 Despite what we might think, the city does NOT come to a standstill. The pedestrian traffic is slightly lower than usual in the main shopping areas, e.g Bourke Street Mall, and Flinders St counts peak earlier around 11am, with people heading to the 2:30pm game at the MCG. Princes Bridge shows a peak around 4:30-5:00pm - maybe people heading home from watching the game in the pubs. 
 
 Team 11 (Jessica, Hua, Glenn and Eric) examined pedestrian patterns in the Bourke Street Mall during December 2013. 
 
-![team11]({{ site.url }}/assets/pedestrians/team11.png)
+![team11](http://visiphilia.github.io/assets/pedestrians/team11.png)
 
 Christmas Eve, Day and Boxing Day are detectable in this plot. Christmas Eve (Tue, olive) has an uusual peak around 2pm - a lot of people running to do last minute shopping before shops close. Christmas Day (Fri, green) is the low count line, where half the normal number of people are out and about. Boxing Day is the high count line that starts early and peaks around 3pm - lots of people taking advantage of sales. 
 
 Team 1 (Alex, Xavier, Renecia and Katie) found a unusual spike in counts at three locations between 5-7am on May 22 2009. 
 
-![team1]({{ site.url }}/assets/pedestrians/team1.png)
+![team1](http://visiphilia.github.io/assets/pedestrians/team1.png)
 
 There was no obvious reason for this, such as an early morning athletic event, to be found using google search. 
 
@@ -128,4 +128,4 @@ Data and analyses were made possible with open data and open source software. Th
 
 The Monash Big Data Challenge Day was organised by Kate Galati and Stephanie Hah. 
 
-[Here is the script]({{ site.url }}/assets/pedestrians/data-analytics-worksheet.R)  for reproducing the plots shown, used on the data downloaded from the csv file from  [Melbourne Open Data](https://data.melbourne.vic.gov.au/Transport-Movement/Pedestrian-Counts/b2ak-trbp).
+[Here is the script](http://visiphilia.github.io/assets/pedestrians/data-analytics-worksheet.R)  for reproducing the plots shown, used on the data downloaded from the csv file from  [Melbourne Open Data](https://data.melbourne.vic.gov.au/Transport-Movement/Pedestrian-Counts/b2ak-trbp).
