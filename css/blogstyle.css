@@ -30,7 +30,7 @@ body {
 
 /* links */
 a {
-	color:#336699; 
+	color: #336699; 
 	background-color: inherit;
 	text-decoration: none;	
 }
@@ -142,12 +142,13 @@ img.float-left {
 }
 
 code {
-  margin: 10px 10px 0px 0px;
-  text-align: left;
-  overflow: auto;  
-  font: 0.9em/1.5em 'courier new', monospace;
+    margin: 10px 10px 0px 0px;
+    text-align: left;
+    overflow: auto;  
+    font: 0.9em/1.5em 'courier new', monospace;
   /* white-space: pre; */   
-  background: #555;
+    background: #FCFCF9;
+    color: #336699; 
 }
 acronym {
   cursor: help;
