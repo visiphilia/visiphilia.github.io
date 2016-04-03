@@ -8,7 +8,7 @@ tags: [education,statistics,EDA,data mining,R,statistical computing,statistical 
 
 Thursday was a challenging day. I was somewhat nervous about working with approximately 60 high school seniors from across Melbourne, spread across three computer labs at Monash University on Clayton campus, working with [R](www.r-project.org) and the pedestrian sensor data that is available on [Open Data Melbourne](https://data.melbourne.vic.gov.au/Transport-Movement/Pedestrian-Counts/b2ak-trbp). The task was to examne the hourly counts of pedestrians taken from sensors spread around the city, some of which have been recording since 2009. 
 
-## Preliminary descriptions
+### Preliminary descriptions
 
 ![map]({{ site.url }}/assets/pedestrians/locations.pdf)
 
@@ -65,7 +65,7 @@ These are side-by-side boxplots of counts by hour of day at this location, separ
 
 This plot breaks down the counts by day of the week and month, and connects values for each day as a line. The February, Saturday, White night events can be seen. The high counts for Thursday correspond to December, actually can be worked out to be Christmas Eve 2015. The week day to weekend pattern is still visible. There is a difference in the variability in counts from month to month, with December being the most variable from ewek to week. You can see some public holidays, lines of low counts on Fridays in January, March and April. 
 
-## What did the high school students find?
+### What did the high school students find?
 
 The students were tasked with coming up with some questions that they'd like to answer with the data, and make the appropriate plots and analysis to answer their questions. The results were very impressive.
 
@@ -108,7 +108,7 @@ Team 4 (Isabella, Milly, Aravind, Sarath and William) looked at times of heavies
 
 Team 12 (nicknamed JACCHammers, Janet, Justin, Andrew, Clare, Chathura and Hasini) went after low pedestrian counts at all locations to recommend times when construction would provide the least disturbance of pedestrian activity. 
 
-## Sustainability theme
+### Sustainability theme
 
 - Relieve the pressure on Flinders Street by placing more weekend activities or tourist locations near Southern Cross and Flagstaff stations. 
 - Placing more sensors around Southern Cross and Melbourne Central could help study flow of pedestrians. There are clearly a lot of people entering the city through these ports, especially on weekdays, but there is a big spatial gap in sensors in these neighborhoods making it hard to see where people go after these points.
@@ -121,4 +121,4 @@ Data and analyses were made possible with open data and open source software. Th
 
 The Monash Big Data Challenge Day was organised by Kate Galati and Stephanie Hah. 
 
-The [script for reproducing the plots shown here]({{ site.url }}/assets/pedestrians/data-analytics-worksheet.R) after downloading the csv file from  [Melbourne Open Data](https://data.melbourne.vic.gov.au/Transport-Movement/Pedestrian-Counts/b2ak-trbp).
+[Here is the script]({{ site.url }}/assets/pedestrians/data-analytics-worksheet.R)  for reproducing the plots shown, used on the data downloaded from the csv file from  [Melbourne Open Data](https://data.melbourne.vic.gov.au/Transport-Movement/Pedestrian-Counts/b2ak-trbp).
