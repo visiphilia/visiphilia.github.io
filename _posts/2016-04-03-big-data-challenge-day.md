@@ -134,6 +134,6 @@ Data and analyses were made possible with open data and open source software. Th
 
 The Monash Big Data Challenge Day was organised by Kate Galati and Stephanie Hah. 
 
-[Here is the script](http://visiphilia.github.io/assets/pedestrians/data-analytics-worksheet.R)  for reproducing the plots shown, used on the data downloaded from the csv file from  [Melbourne Open Data](https://data.melbourne.vic.gov.au/Transport-Movement/Pedestrian-Counts/b2ak-trbp).
+[Here is the script](http://visiphilia.github.io/assets/pedestrians/data-analytics-worksheet.R)  for reproducing the plots shown, used on the complete csv data file downloaded from  [Melbourne Open Data](https://data.melbourne.vic.gov.au/Transport-Movement/Pedestrian-Counts/b2ak-trbp).
 
 [Slides for the master class are available here.](http://visiphilia.github.io/assets/data-analytics-slides.pdf)
