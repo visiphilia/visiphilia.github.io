@@ -21,7 +21,9 @@ h1, h2, h3, h4 {
   background-color: #FFFFFF;
 }
 
-
+.post {
+  font-size: 0.9em;
+}
 
 /* posts index */
 .post > h3.title {
@@ -31,7 +33,7 @@ h1, h2, h3, h4 {
 .post > h3.title span.date {
   position: absolute;
   right: 0;
-  font-size: 0.9em; }
+  font-size: 0.6em; }
 
 .post > .more {
   margin: 10px 0;
