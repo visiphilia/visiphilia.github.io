@@ -361,7 +361,7 @@ input.button {
 	text-align: left;	
         margin-left: 0px;
 	padding: 0;	
-        max-width: 800px;
+        max-width: 100px;
         margin: 0 auto !important;
         float: none !important;
 }
