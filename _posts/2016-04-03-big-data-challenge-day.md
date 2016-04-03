@@ -6,7 +6,7 @@ tags: [education,statistics,EDA,data mining,R,statistical computing,statistical 
 ---
 {% include JB/setup %}
 
-Thursday was a challenging day. I was somewhat nervous about working with approximately 60 high school seniors from across Melbourne, spread across three computer labs at Monash University on Clayton campus, working with [R](www.r-project.org) and the pedestrian sensor data that is available on [Open Data Melbourne](https://data.melbourne.vic.gov.au/Transport-Movement/Pedestrian-Counts/b2ak-trbp). The task was to examne the hourly counts of pedestrians taken from sensors spread around the city, some of which have been recording since 2009. 
+Thursday was a challenging day. I was somewhat nervous about working with approximately 60 high school seniors from across Melbourne, spread across three computer labs at Monash University on Clayton campus, working with [R](www.r-project.org) and the pedestrian sensor data that is available on [Open Data Melbourne](https://data.melbourne.vic.gov.au/Transport-Movement/Pedestrian-Counts/b2ak-trbp). The task was to examine the hourly counts of pedestrians taken from sensors spread around the city, some of which have been recording since 2009. No-one had used R before. 
 
 ### Preliminary descriptions
 
