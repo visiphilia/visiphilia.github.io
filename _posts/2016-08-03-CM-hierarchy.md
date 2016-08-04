@@ -10,7 +10,7 @@ tags: [education,statistics,R,statistical computing,statistical graphics,data wr
 
 ### Hierarchy of graphical mappings
 
-The paper, [Cleveland and McGill (1984)](https://www.jstor.org/stable/2288400?seq=1#page_scan_tab_contents), reported on results from an experiment on ways to map data that enables the reader to accurately return the original data values. The end results was the following hierarchy of mappings from most accurate to least:
+The paper, [Cleveland and McGill (1984)](https://www.jstor.org/stable/2288400?seq=1#page_scan_tab_contents), reported on results from an experiment on ways to map data that enables the reader to accurately return the original data values. The end result was the following hierarchy of mappings from most accurate to least:
 
 1. Position along a common scale e.g. scatter plot, bar chart
 2. Position on identical but nonaligned scales e.g. bars on spatial map in 3D, facetted plots, stacked bars
@@ -70,7 +70,11 @@ The plot order matches the table. Barcharts are centered and concentrated at 0. 
 
 ### Conclusion
 
-Yes, we validated Cleveland and McGill's hierarchy (almost) in the space of 20 minutes using crowd-sourcing!
+Yes, we validated Cleveland and McGill's hierarchy (almost) in the space of 20 minutes using crowd-sourcing! Thanks to all for participating!
+
+### Caveat
+
+Accuracy is not the only metric to  measure the value of data graphics. If that is all that is of interest a table would be superior. But the reader should be able to roughly return the data values, and get a larger sense of of relationships, odd sub-structures, more information.
 
 ### Resources
 
