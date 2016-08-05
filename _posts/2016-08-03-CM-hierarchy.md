@@ -60,7 +60,7 @@ This yields a hierarchy:
 4. Color hue 
 5. Position on identical but nonaligned scales 
 
-This is exactly the order reported by CM84. 
+This is the same order reported by CM84, except for unaligned scales. 
 
 For the second question, we differenced the reported ratio with the true ratio, and plotted these against the plot type. Closer to the zero line would indicate more accurate recognition of the relative size. 
 
